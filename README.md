@@ -1,20 +1,20 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# The Creative Hub — App Specification
 
-# Run and deploy your AI Studio app
+The Creative Hub is a structured application-specification project for an all-in-one creative media workspace.
 
-This contains everything you need to run your app locally.
+## Scope
 
-View your app in AI Studio: https://ai.studio/apps/drive/1TC2-5bWpSHui9n6wkjJkjS1AUbcF_NxY
+The current application presents the intended product architecture, feature groups, workflows, and interface structure for a unified image and video creation experience.
 
-## Run Locally
+## Status
 
-**Prerequisites:**  Node.js
+Application-specification prototype.
 
+It should be treated as a product blueprint and interface exploration rather than evidence of a fully deployed production media-generation platform.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
